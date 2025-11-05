@@ -1,0 +1,27 @@
+# Ignore node_modules from both frontend and backend
+client/node_modules/
+server/node_modules/
+
+# Ignore build outputs
+client/dist/
+client/build/
+server/dist/
+server/build/
+
+# Environment variables
+client/.env
+server/.env
+
+# Log files
+*.log
+npm-debug.log*
+
+# Vite cache
+client/.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
